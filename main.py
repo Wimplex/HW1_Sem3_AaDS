@@ -9,7 +9,6 @@ def exec_time(func, seq):
     start_time = time.time()
     func(seq)
     start_time = time.time() - start_time
-    #print("%s" % start_time)
     #print("Function's {0} execution time: {1} second{2}".format(func.__name__, \
           #"%s" % (time.time() - start_time), \
           #"s" if start_time != 1 else ""))
